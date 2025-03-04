@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.checkbox-container {
+  /* display: flex;
+  align-items: center; */
+  width: 50%;
+  text-align: start;
+}
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  text-align: start;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+li input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  background: rgb(211, 30, 30);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+li button:hover {
+  background: rgb(179, 15, 15);
+}
+
